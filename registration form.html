@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="C:\Users\sysadmin\Desktop\Nishu\js\project1.css" rel="stylesheet">
+	<title>BOOK SHELF</title>
+</head>
+<body>
+	<h1>REGISTRATION FORM</h1>
+	<div class="register">
+		<form method="post" id="register" action="">
+			<h2>REGISTER HERE</h2>
+			<label>first name:</label>
+			<input type="text" name="Fname" id="name" placeholder="First Name"><br><br>
+			<label>last name:</label>
+			<input type="text" name="Lname" id="name" placeholder="Last Name"><br><br>
+			<label>email id:</label>
+			<input type="email" name="email" id="name" placeholder="email id"><br><br>
+			<label>phone no.:</label>
+			<input  type="num" name="Mnum" id="num" value="+91"><br><br>
+			<label>password:</label>
+			<input type="password" name="pass" id="name" placeholder="enter password"><br><br>
+			<label>re-enter your password:</label>
+			<input type="password" name="pass" id="name" placeholder="enter password"><br><br>
+			  <label><input type="radio" name="optradio">male</label>
+			  <label><input type="radio" name="optradio">female</label>
+			  <label><input type="radio" name="optradio">others</label><br>
+			  <button onclick="fun()" style="margin: 2%">Submit<a href="C:\Users\sysadmin\Desktop\Nishu\js\project 1.html"></a></button><br>
+				<a style="padding: 200px;">&copy;Nishu Rai</a>
+		</form>
+		
+	</div>
+	
+</body>
+
+<script type="text/javascript">
+	
+	function fun() {
+		console.log("here")
+		// body...
+  window.location.href = "2.html";
+	}
+</script>
+
+
+
+
+
+ <!-- <!DOCTYPE html>
+<html>
+<body>
+
+<h1>The input required attribute</h1>
+
+<form>
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username">
+  <button onclick = "fun()" >Submit</button>
+</form>
+
+</body>
+</html>
+
+<script>
+function fun(){
+	if(document.getElementById("username").value=="")
+    	alert("Please enter username");
+}
+
+</script> -->
