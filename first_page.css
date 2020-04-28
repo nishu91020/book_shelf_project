@@ -1,0 +1,129 @@
+
+body,html
+{
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcReWDTdnOh-MG1_FVxcFlmOZgr9ndg-WmMoP5Q0CedflqB1C1ac&usqp=CAU");
+font-style: italic;
+background-repeat: no-repeat;
+background-size: cover;
+height:100%;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+margin: 0%;
+padding:0% ;
+
+}
+.top
+{
+    background-color: black;
+    opacity: 90%;
+    padding-bottom: 2%;
+    background-position: fixed;
+}
+h1{
+    color: mediumvioletred;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    padding: 10%;
+    padding-bottom: 5%;
+    padding-left: 5px;
+    padding-top: 0%;
+    margin: 0%;
+    display: inline-block;
+    width:40%;
+}
+.option
+{
+    padding:2%;
+    padding-bottom: 0%;
+    opacity: 1;
+    color: cornsilk;
+    display: inline-block;
+    width:40%;
+}
+a
+{
+    padding:3%;
+    padding-bottom: 0%;
+
+}
+.search
+{
+    margin-left: 54%;
+    display: inline-block;
+  
+
+}
+#cart
+{
+    display: inline-block;
+    margin-left: 2%;
+    background-color:mediumvioletred;
+   
+}
+.menu
+{
+    background-color: palevioletred;
+    text-align: center;
+    padding: 1%;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: peachpuff;
+    min-width: 150px;
+    height: 150px;
+    margin-top: 20%;
+    z-index: 1;
+  }
+  .dropdown:hover .dropdown-content 
+  {
+    display: block;
+    margin: 5%;
+    padding:2%;
+    margin-top: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+  }
+  .dropdown:hover .span{
+    background-color: peachpuff;
+    margin-top: 20%;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .offer
+  {
+      height:350px;
+      background-color: pink;
+      margin-top:1%;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-style: italic;
+      margin-left: 5px;
+      margin-right: 5px;
+      display: inline-block;
+      padding: 2%;
+  }
+  .sale
+  {
+     
+      font-size: xx-large;
+      width: 30%;
+      margin: 5%;
+      float: left;
+      padding: 10%;
+  }
+  .quote
+  {    position: static;
+        float: left;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        font-variant: initial;
+        color: mediumorchid;
+        font-size: large;
+      
+        text-align: center;
+        padding: 5%;
+
+  }
+  
