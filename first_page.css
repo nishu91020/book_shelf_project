@@ -1,13 +1,13 @@
 
-body,html
+body
 {
-background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcReWDTdnOh-MG1_FVxcFlmOZgr9ndg-WmMoP5Q0CedflqB1C1ac&usqp=CAU");
+background-image:linear-gradient(bisque,blanchedalmond);
 font-style: italic;
+background-position:fixed;
 background-repeat: no-repeat;
+height: 1800px;
 background-size: cover;
-height:100%;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
 margin: 0%;
 padding:0% ;
 
@@ -95,35 +95,58 @@ a
   .offer
   {
       height:350px;
-      background-color: pink;
+      background-image: linear-gradient(#ff00ff,pink,lightpink);
       margin-top:1%;
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
      font-style: italic;
-      margin-left: 5px;
-      margin-right: 5px;
       display: inline-block;
-      padding: 2%;
+      padding: 1%;
+      margin-left: 1%;
+      margin-right: 1%;
   }
   .sale
   {
      
       font-size: xx-large;
       width: 30%;
-      margin: 5%;
-      float: left;
-      padding: 10%;
+        position:relative;
+        right:5%;
+      float: none;
   }
   .quote
-  {    position: static;
-        float: left;
+  {    position: relative;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-style: italic;
         font-variant: initial;
         color: mediumorchid;
         font-size: large;
-      
         text-align: center;
-        padding: 5%;
+        text-align: center;
+    
 
+  }
+  .op
+  {
+      
+      padding: 1%;
+      margin: 2%;
+  }
+  #user
+  {
+    display: inline-block;
+    width:15%;
+    background-image: linear-gradient(to bottom right,#ff00ff,lightpink,pink); 
+    padding:2%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    font: outline;
+    font-style: inherit;
+    margin-left: 10%;
+    position: relative;
+    top: 90%;
+   
+
+  
   }
   
