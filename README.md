@@ -11,8 +11,8 @@ book shelf project--
 <hr>
 <p>looking forward to use js for making the website responsive and providing some additional features</p>
 <hr>
-<h1>Funtionality</h1>
-<h1>website's first page is responsive and it consists of two working links</p>
+<h3>Funtionality</h3>
+<p>website's first page is responsive and it consists of two working links</p>
 <ul>
   <li>Registration or login page</li>
   <li>Link to buy CBSE books </li>
