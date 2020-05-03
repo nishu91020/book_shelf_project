@@ -1,11 +1,9 @@
-
-body
+html,body
 {
 background-image:linear-gradient(bisque,blanchedalmond);
 font-style: italic;
-background-position:fixed;
 background-repeat: no-repeat;
-height: 1800px;
+height: auto;
 background-size: cover;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 margin: 0%;
@@ -17,7 +15,8 @@ padding:0% ;
     background-color: black;
     opacity: 90%;
     padding-bottom: 2%;
-    background-position: fixed;
+    
+
 }
 h1{
     color: mediumvioletred;
@@ -36,9 +35,17 @@ h1{
     padding:2%;
     padding-bottom: 0%;
     opacity: 1;
-    color: cornsilk;
+    
+    
     display: inline-block;
     width:40%;
+    
+}
+#opt
+{
+  text-decoration: none;
+  color: cornsilk;
+  cursor: pointer;
 }
 a
 {
@@ -50,30 +57,43 @@ a
 {
     margin-left: 54%;
     display: inline-block;
+    outline: none;
+    border: none;
   
 
 }
 #cart
 {
     display: inline-block;
-    margin-left: 2%;
-    background-color:mediumvioletred;
+    margin-left: 1%;
+    background:none;
+    border-radius: 5px;
+    outline: white;
+    border:white 2px solid;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 25px;
+    color: white;
    
 }
 .menu
 {
     background-color: palevioletred;
+    color: sienna;
     text-align: center;
     padding: 1%;
+    cursor: pointer;
 }
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: peachpuff;
     min-width: 150px;
-    height: 150px;
+    height: 80px;
+    padding: 2%;
     margin-top: 20%;
     z-index: 1;
+    cursor: pointer;
   }
   .dropdown:hover .dropdown-content 
   {
@@ -84,7 +104,8 @@ a
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
   }
-  .dropdown:hover .span{
+  .dropdown:hover .span
+  {
     background-color: peachpuff;
     margin-top: 20%;
   }
@@ -130,6 +151,8 @@ a
       
       padding: 1%;
       margin: 2%;
+      transition-delay:0.5s;
+      transition-property: color;
   }
   #user
   {
@@ -145,8 +168,81 @@ a
     margin-left: 10%;
     position: relative;
     top: 90%;
-   
+  }
+  h3
+  {
+    background-color: mediumvioletred;
+    opacity: 90%;
+    margin: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 1%;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: -400px;
+    
 
+
+  }
+  .one
+  {
+    position: relative;
+    top:-350px;
+  }
+  #sp
+  {
+    padding: 1%;
+    margin: 1%;
+    margin-top: 0%;
+    margin-left: 9%;
+    display:inline-block;
+    width: 15%;
+    transform: scale(0.7);
+    position: relative;
+    border: 2px solid black;
+    
+  }
+  .contact{
   
+    background-color: lightpink;
+    font-size: large;
+    padding-top: 400px;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+  figcaption
+  {
+    
+    font-size: large;
+    padding: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+  }
+  #opt:hover
+  {
+
+    color: mediumvioletred;
+  }
+  #me:hover
+  {
+    font-size: large;
+    color:black;
+  }
+  #user:hover
+  {
+    transform: scale(1.2);
+  }
+  
+  #sp:hover
+  {
+    transform: scale(0.9);
+  }
+  
+  #cart:hover
+  {
+    border: 2px solid wheat;
+    color: black;
+    background: wheat;
   }
   
