@@ -6,9 +6,9 @@ body
 }
 .form
 {
-    height: 100vh;
+    height: 700px;
     width:100%;
-    background-image: linear-gradient(pink,lightpink,#ff00ff);
+    background-image: linear-gradient(lightpink,pink,#ff00ff);
     background-size: cover;
     opacity: 0.9;
     background-position: center;
@@ -29,8 +29,7 @@ body
     overflow: hidden;
     padding: 5px;
     border-radius:5%;
-    opacity:0.8;
-
+    opacity: 0.8;
 
 }
 .input
@@ -64,7 +63,7 @@ body
     outline:0;
     background: none;
     font-size: large;
-    color: white;
+    color:white;
     text-align: center;
     margin: 5%;
     padding: 5%;
@@ -86,7 +85,7 @@ body
     top:10px;
     outline: 0;
     background: none;
-    color:#fff;
+    color:white;
     font-size: 14px;
     text-transform: uppercase;
     width: 150px;
