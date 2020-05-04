@@ -32,26 +32,31 @@ h1{
 }
 .option
 {
-    padding:2%;
+    
+    margin-right: 0%;
     padding-bottom: 0%;
     opacity: 1;
-    
-    
     display: inline-block;
-    width:40%;
+    width:35%;
     
 }
+
 #opt
 {
+  padding: 1.7%;
   text-decoration: none;
   color: cornsilk;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: 500;
   cursor: pointer;
+  position: relative;
+  left:10%;
 }
 a
 {
-    padding:3%;
-    padding-bottom: 0%;
-
+  padding: 3%;
+  padding-bottom: 0%;
 }
 .search
 {
@@ -79,8 +84,12 @@ a
 .menu
 {
     background-color: palevioletred;
-    color: sienna;
+    color:black;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: medium;
     padding: 1%;
     cursor: pointer;
 }
@@ -172,9 +181,9 @@ a
   h3
   {
     background-color: mediumvioletred;
-    opacity: 90%;
-    margin: 5%;
-    margin-left: 15%;
+    opacity: 1;
+    margin: 1%;
+    margin-left: 10%;
     margin-right: 15%;
     padding: 1%;
     color: black;
@@ -227,7 +236,6 @@ a
   #me:hover
   {
     font-size: large;
-    color:black;
   }
   #user:hover
   {
