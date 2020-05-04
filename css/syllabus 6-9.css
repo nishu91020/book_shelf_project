@@ -13,17 +13,3 @@ h1{
     font-style: oblique;
     background-color: lightcoral;
 }
-body {
-    counter-reset: chapter;      /* Create a chapter counter scope */
-}
-
-h1{
-    counter-reset: section;      /* Set section to 0 */
-}
-p:before {
-    content: "Chapter" counter(section) ". ";
-    counter-increment: section;
-}
-
-
-   
